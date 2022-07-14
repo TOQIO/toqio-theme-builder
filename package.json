@@ -1,0 +1,30 @@
+{
+  "name": "toqio-theme-builder",
+  "version": "1.0.0",
+  "description": "Server to build custom theme with styled dictionary",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TOQIO/toqio-theme-builder.git"
+  },
+  "keywords": [],
+  "author": "maiderhernandorena <maider.hernandorena@toq.io> (https://www.npmjs.com/~maiderhernandorena)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TOQIO/toqio-theme-builder/issues"
+  },
+  "homepage": "https://github.com/TOQIO/toqio-theme-builder#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "file-system": "^2.2.2",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "style-dictionary": "^3.7.1"
+  }
+}
